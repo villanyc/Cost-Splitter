@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cost Spliter Calculator</title>
+		<link rel="stylesheet" type="text/css" href="Styles.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1 class="h1Heading">Joe's E-Z Cost Spliter </h1>
+
+	<p> Enter Names:</p>
+		<input id="names" type="text" placeholder="Enter Names"></h5>
+	<p> Bill Total (Note no Tax Included)</p>
+		<input id="bill" type="number" placeholder="How much is your bill?"></h5>
+	<p>Amount of People splitting bill</p>
+		 <select id="Tipping"> </select>
+
+	<h4> Calculator For your Basic Needs : </h4>
+		<div class="container">
+	    <table border="5" cellspacing="5">
+	        <tr>
+	            <td colspan="4" id="calculatorBox">0</td>
+	        </tr>
+	        <tr>
+	            <td colspan="3"><button onclick="buttonPushed(this);">AC</button></td>
+	            <td><button onclick="buttonPushed(this);">/</button></td>
+	        </tr>
+	        <tr>
+	            <td><button onclick="buttonPushed(this);">7</button></td>
+	            <td><button onclick="buttonPushed(this);">8</button></td>
+	            <td><button onclick="buttonPushed(this);">9</button></td>
+	            <td><button onclick="buttonPushed(this);">*</button></td>
+	        </tr>
+	        <tr>
+	            <td><button onclick="buttonPushed(this);">4</button></td>
+	            <td><button onclick="buttonPushed(this);">5</button></td>
+	            <td><button onclick="buttonPushed(this);">6</button></td>
+	            <td><button onclick="buttonPushed(this);">-</button></td>
+	        </tr>
+	        <tr>
+	            <td><button onclick="buttonPushed(this);">1</button></td>
+	            <td><button onclick="buttonPushed(this);">2</button></td>
+	            <td><button onclick="buttonPushed(this);">3</button></td>
+	            <td><button onclick="buttonPushed(this);">+</button></td>
+	        </tr>
+	        <tr>
+	            <td colspan="2"><button onclick="buttonPushed(this);">0</button></td>
+	            <td><button onclick="buttonPushed(this);">.</button></td>
+	            <td><button onclick="buttonPushed(this);">=</button></td>
+	        </tr>
+	    </table>
+		</div>
+	<script src="script.js"></script>
+	</body>
+</html>
